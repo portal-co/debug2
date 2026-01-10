@@ -1,10 +1,11 @@
 # debug2
 
 ## Description
-Project debug2
+A placeholder or new iteration of debugging tools.
 
 ## Goals
-- [ ] Add project goals
+- [ ] Develop debugging utilities
+- [ ] Document usage
 
 ## Progress
 - [ ] Initial setup
