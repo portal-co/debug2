@@ -1,0 +1,30 @@
+[workspace]
+members = []
+resolver = "3"
+[workspace.package]
+license = "GPL-3.0"
+version = "0.1.0"
+description = "Debugging for all by rewriting"
+
+[workspace.dependencies]
+portal-jsc-common = { git = "https://github.com/portal-co/jsaw-core.git", version = "^0.8.0-pre.10" }
+portal-jsc-swc-cfg = { git = "https://github.com/portal-co/jsaw-core.git", version = "^0.8.0-pre.10" }
+portal-jsc-swc-tac = { git = "https://github.com/portal-co/jsaw-core.git", version = "^0.8.0-pre.10" }
+portal-jsc-swc-ssa = { git = "https://github.com/portal-co/jsaw-core.git", version = "^0.8.0-pre.10" }
+portal-jsc-swc-util = { git = "https://github.com/portal-co/jsaw-core.git", version = "^0.8.0-pre.10" }
+
+portal-pc-waffle = { version = "^0.6.0-alpha.1", git = "https://github.com/portal-co/waffle-.git" }
+
+rayoff = { version = "0.1.0", git = "https://github.com/portal-co/rayoff.git" }
+
+id-arena = "^2.2.1"
+arena-traits = { version = "^0.2.3", features = ["id-arena"] }
+ssa-traits = { version = "^0.2.3", git = "https://github.com/portal-co/codegen-utils.git", branch = "master" }
+cfg-traits = { version = "^0.2.3", git = "https://github.com/portal-co/codegen-utils.git", branch = "master" }
+ssa-impls = { version = "^0.2.3", git = "https://github.com/portal-co/codegen-utils.git", branch = "master" }
+ssa-reloop = { version = "^0.2.3", git = "https://github.com/portal-co/codegen-utils.git", branch = "master" }
+
+ssa-traits-03 = { version = "0.3.0-alpha.2", package = "ssa-traits", git = "https://github.com/portal-co/codegen-utils.git", branch = "dev/0.3" }
+cfg-traits-03 = { version = "0.3.0-alpha.2", package = "cfg-traits", git = "https://github.com/portal-co/codegen-utils.git", branch = "dev/0.3" }
+ssa-impls-03 = { version = "0.3.0-alpha.2", package = "ssa-impls", git = "https://github.com/portal-co/codegen-utils.git", branch = "dev/0.3" }
+ssa-reloop-03 = { version = "0.3.0-alpha.2", package = "ssa-reloop", git = "https://github.com/portal-co/codegen-utils.git", branch = "dev/0.3" }
